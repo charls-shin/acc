@@ -1,0 +1,16 @@
+{
+    "name": "charls/test",
+    "authors": [
+        {
+            "name": "sinjc",
+            "email": "sinjc01@gmail.com"
+        }
+    ],
+	"description": "",
+	"autoload": {
+		"psr-4": {
+			"core\\": "./core/"
+		}
+	},
+    "require": {}
+}
