@@ -23,7 +23,7 @@
           <a class="nav-link active" aria-current="page" href="./">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./test">test</a>
+          <a class="nav-link" href="./contact">contact</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -31,7 +31,7 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="./">home</a></li>
-            <li><a class="dropdown-item" href="./test">test</a></li>
+            <li><a class="dropdown-item" href="./contact">contact</a></li>
           </ul>
         </li>
         <li class="nav-item">

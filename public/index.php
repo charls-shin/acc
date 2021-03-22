@@ -1,12 +1,13 @@
 <?php
 require_once __DIR__.'/../vendor/autoload.php';
 
-$app = new core\Application(dirname(__DIR__));
+use app\core\Application;
+use app\controllers\SiteController;
 
-$app->router->get('/','login');
-$app->router->get('/test','test');
-$app->router->post('/test',function(){
-	return 'asdfas';
-});
+$app = new Application(dirname(__DIR__));
+
+$app->router->get('/', [SiteController::class, 'home']);
+$app->router->get('/contact','contact');
+$app->router->post('/contact',[SiteController::class,'contact']);
 
 $app->run();

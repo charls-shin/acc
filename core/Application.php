@@ -1,4 +1,4 @@
-<?php namespace core;
+<?php namespace app\core;
 
 class Application
 {
