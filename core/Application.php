@@ -2,7 +2,7 @@
 
 class Application
 {
-	public static string $ROOT_DIR;
+	public static $ROOT_DIR;
 	public $router;
 	public $request;
 	public $response;
@@ -21,5 +21,8 @@ class Application
 	{
 		echo $this->router->resolve();
 	}
+
+
+
 }
 
