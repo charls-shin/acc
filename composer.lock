@@ -4,8 +4,42 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "198b70e966f841a4605b2e5f922c7851",
-    "packages": [],
+    "content-hash": "e10eac7f7f759ffa66621d0b4e4ceaab",
+    "packages": [
+        {
+            "name": "thecodeholic/php-mvc-core",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thecodeholic/tc-php-mvc-core.git",
+                "reference": "75c27ced48d539c32e9c48f7cd695463c4f34149"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thecodeholic/tc-php-mvc-core/zipball/75c27ced48d539c32e9c48f7cd695463c4f34149",
+                "reference": "75c27ced48d539c32e9c48f7cd695463c4f34149",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "thecodeholic\\phpmvc\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Zura Sekhniashvili",
+                    "email": "zurasekhniashvili@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/thecodeholic/tc-php-mvc-core/issues",
+                "source": "https://github.com/thecodeholic/tc-php-mvc-core/tree/v1.0.4"
+            },
+            "time": "2020-07-26T13:46:12+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",

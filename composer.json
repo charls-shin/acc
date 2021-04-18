@@ -12,5 +12,7 @@
 			"app\\": "."
 		}
 	},
-    "require": {}
+    "require": {
+      "thecodeholic/php-mvc-core": "^v1.0.4"
+    }
 }

@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit18c02897293ac66a56f642d670266eec
 {
     public static $prefixLengthsPsr4 = array (
+        't' => 
+        array (
+            'thecodeholic\\phpmvc\\' => 20,
+        ),
         'a' => 
         array (
             'app\\' => 4,
@@ -14,6 +18,10 @@ class ComposerStaticInit18c02897293ac66a56f642d670266eec
     );
 
     public static $prefixDirsPsr4 = array (
+        'thecodeholic\\phpmvc\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/thecodeholic/php-mvc-core',
+        ),
         'app\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',

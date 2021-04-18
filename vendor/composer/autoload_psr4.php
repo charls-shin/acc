@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'thecodeholic\\phpmvc\\' => array($vendorDir . '/thecodeholic/php-mvc-core'),
     'app\\' => array($baseDir . '/'),
 );

@@ -1,12 +1,17 @@
-<h1>LogIn</h1>
-<form action="" method="POST">
-    <div class="form-group">
-        <label>name</label>
-        <input type="text" class="form-control">
-    </div>
-    <div class="form-group">
-        <label>Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+<?php
+
+/** @var $model \app\models\LoginForm */
+
+use thecodeholic\phpmvc\form\Form;
+
+?>
+
+<h1>Login</h1>
+
+<?php $form = Form::begin('', 'post') ?>
+    <input type="text" name="name" id="name">
+    <input type="text" name="password" id="password">
+    <?php /*echo $form->field($model, 'email') */?><!--
+    --><?php /*echo $form->field($model, 'password')->passwordField() */?>
+    <button class="btn btn-success">Submit</button>
+<?php Form::end() ?>

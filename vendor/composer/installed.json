@@ -1,5 +1,42 @@
 {
-    "packages": [],
+    "packages": [
+        {
+            "name": "thecodeholic/php-mvc-core",
+            "version": "v1.0.4",
+            "version_normalized": "1.0.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thecodeholic/tc-php-mvc-core.git",
+                "reference": "75c27ced48d539c32e9c48f7cd695463c4f34149"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thecodeholic/tc-php-mvc-core/zipball/75c27ced48d539c32e9c48f7cd695463c4f34149",
+                "reference": "75c27ced48d539c32e9c48f7cd695463c4f34149",
+                "shasum": ""
+            },
+            "time": "2020-07-26T13:46:12+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "thecodeholic\\phpmvc\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Zura Sekhniashvili",
+                    "email": "zurasekhniashvili@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/thecodeholic/tc-php-mvc-core/issues",
+                "source": "https://github.com/thecodeholic/tc-php-mvc-core/tree/v1.0.4"
+            },
+            "install-path": "../thecodeholic/php-mvc-core"
+        }
+    ],
     "dev": true,
     "dev-package-names": []
 }
